@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "types": ["node", "jest"],
+    "resolveJsonModule": true
+  },
+  "compileOnSave": true,
+  "include": ["src", ".eslintrc.js", "jest.config.ts"]
+}
